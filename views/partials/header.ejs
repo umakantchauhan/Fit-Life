@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit-Life</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="./images/logo.png" type="image/png" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<header>
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/index.ejs" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <img src="./images/logo.png" alt="logo" class="bi" width="35" height="30">
+          <h3>Fit-Life</h3>
+        </a>
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="/index" class="nav-link px-2 link-dark">Home</a></li>
+        <li><a href="/FitGuides" class="nav-link px-2 link-dark">FitGuides</a></li>
+        <li><a href="/Articles" class="nav-link px-2 link-dark">Articles</a></li>
+        <li><a href="/Fetaures" class="nav-link px-2 link-dark">Tools</a></li>
+        <li><a href="/Products" class="nav-link px-2 link-dark">Products</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <% if (typeof user !== "undefined") { %>
+          <span class="userName">Welcome, <%= user.name %>!</span>
+          <a href="/logout" class="btn btn-black">Logout</a>
+        <% } else { %>
+          <a href="/login" class="btn btn-black">Login</a>
+          <a href="/signUp" class="btn btn-black">Sign-up</a>
+        <% } %>
+      </div>
+    </header>
+  </div>
+</header>

@@ -1,0 +1,247 @@
+.nav-link.link-black {
+    color: black;
+  }
+  
+  .nav-link.link-black:hover {
+    color: white;
+    background-color: black;
+  }
+  
+
+  .btn-outline-black {
+    color: black;
+    border-color: black;
+  }
+  
+  .btn-outline-black:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  .btn-black {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  
+  .btn-black:hover {
+    background-color: white;
+    color: black;
+  }
+  .body-map__muscle path:hover{   
+    fill: rgb(61, 58, 58);
+}  
+
+.row {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .row ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .row li {
+    margin-bottom: 10px;
+  }
+  
+  .row p {
+    font-weight: bold;
+  }
+  
+  .row h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .row img {
+    border-radius: 6px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #0a0b0b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #090a0a;
+}
+#result {
+    margin-top: 20px;
+}
+
+.product-card {
+    transition: transform 0.2s;
+  }
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  .product-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+.result-box {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    /* efe */
+ 
+  
+  .video-section {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+      z-index: 1;
+  }
+  .video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+  }
+  
+  .video-content {
+      position: relative;
+      z-index: 1;
+      top: 40%;
+      padding: 20px;
+      color: white;
+      text-align: center;
+  }
+
+  .video-content h1 , .video-content p, .carousel-inner h5 , .carousel-inner p,.container h1 , .userName{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .video-content p {
+      font-size: 2rem;
+    }
+.carousel-inner h5 , .carousel-inner p{
+  font-size: 2rem;
+}
+.container-fluid 
+
+  .container-fluid {
+      position: relative;
+      z-index: 2; /* Ensure the main content is above the video section */
+  }
+
+.slider1 p {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#typing-text {
+  display: inline-block;
+  border-right: 2px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: caret 0.75s step-end infinite;
+}
+
+@keyframes caret {
+  50% {
+      border-color: transparent;
+  }
+}
+
+.row ol {
+  background-color: #090a0a;
+  color: #fff;
+  border-radius: 12px;
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  list-style-type: disc;
+}
+
+/* mjxwsk */
+
+.bg-image {
+  background-image: url('/images/calculator.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* sws */
+
+/* Set video to fill the screen */
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Center the form and make it transparent */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Input focus color */
+.form-control:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+
+/* Margin for the sign-up button */
+.sign-up-btn {
+  margin-top: 15px;
+}
+
+/* Position the eye icon inside the password input field */
+.password-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.password-toggle img {
+  width: 20px;
+  height: 20px;
+}
