@@ -9,3 +9,6 @@ a fitness web page , more or less like muscle wiki web page. Made in node js
 ![Screenshot 2024-09-25 164950](https://github.com/user-attachments/assets/71cec043-828b-452d-b965-098d09c7c4d0)
 ![Screenshot 2024-09-25 165018](https://github.com/user-attachments/assets/eab70938-9462-41c8-bb20-fe04e24ff774)
 ![Screenshot 2024-09-25 165121](https://github.com/user-attachments/assets/e69c593f-b339-4f6f-b7fc-60ad32c40249)
+![Screenshot 2024-09-28 170846](https://github.com/user-attachments/assets/a210d408-17ee-4cd1-a92f-54937b65ed9b)
+![Screenshot 2024-09-28 170915](https://github.com/user-attachments/assets/712e9a25-29e0-491a-84f3-174dfa6cebaa)
+![Screenshot 2024-09-28 170957](https://github.com/user-attachments/assets/f4764841-9fd3-4011-9c78-9debc4e0fdd2)
