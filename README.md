@@ -1,5 +1,5 @@
 # Fit-Life
-a fitness web page , more or less like muscle wiki web page. Made in node js
+a fitness web page , more or less like muscle wiki web page. Made in node js , ejs.
 ![Screenshot 2024-09-25 164431](https://github.com/user-attachments/assets/5369be3b-73b8-41fb-82b3-f5f31b652b74)
 ![Screenshot 2024-09-25 164520](https://github.com/user-attachments/assets/a837490e-90fa-4732-ab2a-b1d6521819fa)
 ![Screenshot 2024-09-25 164550](https://github.com/user-attachments/assets/e221d356-ab9e-4a76-88da-0b709bb57dd7)
